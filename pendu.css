@@ -1,0 +1,65 @@
+@font-face {
+    font-family:"Teds" ;
+    src: url(p1.otf);
+}
+header{
+    margin: none;
+}
+h1{
+    text-align: center;
+    background-color: bisque;
+    font-family: "Teds";
+    font-size: 80px;
+    margin: 1px;
+}
+.button{
+    /* text-align: center; */
+    background-color: black;
+    color: bisque;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 54px;
+    height: 59px;
+}
+.nonvisible{
+    visibility: hidden;
+}
+.corps{
+    display: flex;
+
+}
+.centre{
+    text-align: center;
+    margin-left: 50px;
+}
+.clavier{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.mot{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.letter{
+    margin: 10px;
+    font-size: 48px;
+}
+body{
+    background-color: bisque;
+}
+.bg_btn{
+    background-color: rgb(175, 171, 171);
+}
+.dessin{
+    margin-left: 100px;
+}
+.rejouer{
+    margin-left: 1100px;
+}
+#rejouer{
+    padding: 15px;
+    background-color: black;
+    color: bisque;
+}
